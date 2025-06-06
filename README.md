@@ -86,11 +86,10 @@ FakeNews/
 
 ## Development Status
 
-✅ The application is now finalized and functional.
+✅ The application is functional, although it is still being improved. 
+Next Step: search for better data to train.
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 

@@ -1,6 +1,6 @@
 #libraries
-
+streamlit
 lxml_html_clean
 newspaper3k
-streamlit
 dontenv
+tensorflow

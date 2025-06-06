@@ -4,7 +4,7 @@ import pickle
 
 max_len = 500
 # step 1: Tokenizer set up
-with open(r"C:\Users\FHK\Jupyter_FakeNews\tokenizer.pickle_v3", "rb") as f:
+with open(r"tokenizer.pickle_v3", "rb") as f:
     tokenizer = pickle.load(f)
 
 def process_text(text, tokenizer =tokenizer, max_len=max_len):

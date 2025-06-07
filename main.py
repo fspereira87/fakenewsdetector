@@ -4,7 +4,7 @@ from model import load_model
 from process import process_text, tokenizer
 import sqlite3
 import os
-model = load_model("C:/model/my_model_v3.keras")
+model = load_model("my_model_v3.keras")
 
 def analyze_news(url):
 

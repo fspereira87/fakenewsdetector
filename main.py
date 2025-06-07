@@ -2,16 +2,16 @@ from clean import clean_text
 from scraper import scrape
 from model import load_model
 from process import process_text, tokenizer
-import sqlite3
+import sqlitecloud
 import os
-model = load_model("C:/model/my_model_v3.keras")
+model = load_model("my_model_v3.keras")
 
 def analyze_news(url):
 
-    conn = sqlite3.connect(r'C:\SQLiteStudio\news.db')
+    conn = sqlitecloud.connect(r'sqlitecloud://ceg7nehlnz.g5.sqlite.cloud:8860/news.db?apikey=2NC1zbab9wba6JTQ6Mkdmvb37kFv7P5sUgLJJqSiGWs')
     cursor = conn.cursor()
 
-    print ("Using Database at: ", os.path.abspath(r'C:\SQLiteStudio\news.db'))
+    print ("Using Database at: ", os.path.abspath(r'sqlitecloud://ceg7nehlnz.g5.sqlite.cloud:8860/news.db?apikey=2NC1zbab9wba6JTQ6Mkdmvb37kFv7P5sUgLJJqSiGWs'))
     cursor.execute("SELECT Title, label FROM news_table WHERE URL = ?", (url,))
     existing = cursor.fetchone()
 

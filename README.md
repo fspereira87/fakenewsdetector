@@ -32,7 +32,7 @@ FakeNews/
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.8 to 3.12
 - pip (Python package manager)
 - Virtual environment (recommended)
 
@@ -75,14 +75,16 @@ FakeNews/
 - Limited dataset size
 - High expressiveness of dense layers
 - High embedding dimension
-- Too many training epochs
+- poor quality data
 
 **Planned improvements:**
-- Implement EarlyStopping during training
-- Add L2 regularization to dense layers
-- Reduce embedding size to 64 or 100
-- Use fewer filters in Conv1D layers (e.g., 32)
-- Add BatchNormalization layers
+- Implement EarlyStopping during training (done)
+- Add L2 regularization to dense layers (done)
+- Reduce embedding size to 64 (done)
+
+**Results after improvements**
+- Model stopped overfitting. Acc is a bit lower than the Human Expected Standard (around 70% ACC).
+- After analysing the training data manually, I concluded that the quality can be questioned. The next step is to look for better training data.
 
 ## Development Status
 

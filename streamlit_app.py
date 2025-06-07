@@ -8,7 +8,7 @@ st.title('🕵️‍♂️ Fake News Detector')
 with st.sidebar:
     st.header('🔗 Enter the Article URL')
     url = st.text_input("Article to analyse:")
-    
+    st.info("WARNING: Only English articles are supported.", icon="⚠️")
 
 if st.button('Run analyse'):
     if not url: 

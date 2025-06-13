@@ -93,6 +93,8 @@ FakeNews/
 ✅ The application is functional, although it is still being improved. 
 Next Step: search for better data to train.
 
+!More information about the model to be added.
+
 
 
 ## License

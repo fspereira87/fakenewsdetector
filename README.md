@@ -18,6 +18,8 @@ FakeNews/
 ├── streamlit_app.py   # Streamlit web interface
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project documentation
+└── my_model_v3.keras  # pre-trained model
+└── tokenizer.pickel_v3   #saved tokenizer object
 ```
 
 ## Features

@@ -1,6 +1,6 @@
 # FakeNews Detection Project
 
-A machine learning-based system for detecting and analyzing fake news articles, combining a backend model with an intuitive web interface.
+A machine learning project that detects whether a news headline or article is fake or real, using natural language processing (NLP). Built as a personal project to explore text classification, model deployment, and data preprocessing with Python.
 
 ## Why Streamlit?
 
